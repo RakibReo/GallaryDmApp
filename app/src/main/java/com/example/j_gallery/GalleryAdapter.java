@@ -11,8 +11,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 public class GalleryAdapter extends RecyclerView.Adapter<GalleryViewHolder> {
-    Context context;
-    List<Gallery> galleryList;
+    private Context context;
+    private List<Gallery> galleryList;
 
     public GalleryAdapter(Context context, List<Gallery> galleryList) {
         this.context = context;
